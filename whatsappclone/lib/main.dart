@@ -30,7 +30,7 @@ class MainWidget extends StatelessWidget {
             onPressed: () {},
           ),
         ],
-        backgroundColor: Colors.green,
+        backgroundColor: Colors.orange,
       ),
       body: Center(
         child: ListView(
@@ -50,7 +50,7 @@ class MainWidget extends StatelessWidget {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        backgroundColor: Colors.green,
+        backgroundColor: Colors.orange,
         onPressed: () {},
         child: Icon(Icons.add),
       ),
@@ -82,7 +82,7 @@ class MainWidget extends StatelessWidget {
             trailing: Text(
               "6.27 PM",
               style: TextStyle(
-                color: Colors.greenAccent,
+                color: Colors.orangeAccent,
               ),
             ),
           ),
@@ -117,7 +117,7 @@ class MainWidget extends StatelessWidget {
                     ),
                   ),
                   decoration: BoxDecoration(
-                    color: Colors.green,
+                    color: Colors.orange,
                     shape: BoxShape.circle,
                   ),
                 ),
